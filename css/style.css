@@ -1,0 +1,70 @@
+.contInfo {
+  display: flex;
+  justify-content: space-evenly;
+}
+.contInfo__HeadingText {
+  width: 480px;
+  font-size: 30px;
+  margin: 0 auto;
+  font-weight: bold;
+  line-height: 1,33;
+  text-align: center;
+}
+.contInfo2__Text {
+  width: 480px;
+  margin: 12px auto 30px;
+  text-align: center;
+  font-size: 18px;
+}
+.contInfo3 {
+  display: flex;
+  justify-content: center;
+  flexdirection: column;
+  align-items: flex-end;
+  margin: 8px 4px;
+  font-size: 18px;
+  font-weight: bold;
+  color: white;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  text-align: right;
+}
+.contInfo3__Image {
+  width: 452px;
+  height: 276px;
+}
+.contInfo3__Image--1 {
+  background-image: url("../images/fotbal1.png");
+}
+.contInfo3__Image--2 {
+  background-image: url("../images/hockey1.png");
+}
+.contInfo4 {
+  display: flex;
+  justify-content: center;
+  margin: 8px 4px 8px 4px;
+  padding: 8px;
+  font-size: 18px;
+  font-weight: bold;
+  color: black;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  text-align: right;
+}
+.contInfo4__Image2 {
+  width: 226px;
+  height: 164px;
+}
+.contInfo4__Image2--1 {
+  background-image: url("../images/tennis.png");
+}
+.contInfo4__Image2--2 {
+  background-image: url("../images/basketbal.png");
+}
+.contInfo4__Image2--3 {
+  border: #fceeee;
+  background-color: #fceeee;
+}
+.contInfo4__Image2--4 {
+  background-image: url("../images/sipky.png");
+}
