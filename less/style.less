@@ -81,9 +81,105 @@ body {
 }
 
 .livescoreBlock {
-	display: flex;
-	flex-wrap: wrap;
-	width: 1000px;
-	min-height: 100vh;
-	background: white;
+    display: flex;
+    flex-wrap: wrap;
+    width: 1000px;
+    min-height: 100vh;
+    background: white;
+}
+.contInfo {
+    display: flex;
+    justify-content: space-evenly;
+    &__HeadingText {
+        width: 1000px;
+        font-size: 30px;
+        margin: 0 auto;
+        font-weight: bold;
+        line-height: 1,33;
+        text-align: center;
+    }
+}
+.contInfo2 {
+    display: flex;
+    justify-content: space-evenly;
+    &__Text {
+        width: 500px;
+        margin: 12px 250px;
+        text-align: center;
+        font-size: 18px;
+    }
+}      
+.liveCont {
+    display: flex;
+    justify-content: space-evenly;
+    flex direction: column;
+    align-items: flex-end;
+    margin: 8px 4px;
+    padding: 20px;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    text-align: right;
+    &__soccer {
+        width: 452px;
+        height: 276px;
+        background-image: url("../images/fotbal1.png");
+    }
+    &__hockey {
+        width: 452px;
+        height: 276px;
+        background-image: url("../images/hockey1.png");
+    }    
+}
+.liveCont2 {
+    display: flex;
+    justify-content: space-evenly;
+    flex direction: column;
+    align-items: flex-end;
+    margin: 8px 4px;
+    padding: 20px;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    text-align: right;
+    &__tennis {
+        width: 202px;
+        height: 164px;
+        background-image: url("../images/tennis.png");
+    }
+    &__basketbal {
+        width: 202px;
+        height: 164px;
+        background-image: url("../images/basketbal.png");
+    }
+    &__eSports {
+        width: 202px;
+        height: 164px;
+        border: rgb(252, 238, 238);;
+        background-color: rgb(212, 209, 209);
+    }
+    &__sipky {
+        width: 202px;
+        height: 164px;
+        background-image: url("../images/sipky.png");
+    }
+}
+.liveBlock {
+    display: flex;
+    flex direction: row;
+    border width: 100px;
+    border height: 80px;
+    border: 2px solid black;  
+}
+.liveHead {
+    margin: 120px 5px;
+    font-size: 18px;
+    font-weight: bold;
+}
+.liveArea {
+    margin top: 400px;
 }

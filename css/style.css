@@ -1,27 +1,46 @@
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  background: grey;
+}
+.livescoreBlock {
+  display: flex;
+  flex-wrap: wrap;
+  width: 1000px;
+  min-height: 100vh;
+  background: white;
+}
 .contInfo {
   display: flex;
   justify-content: space-evenly;
 }
 .contInfo__HeadingText {
-  width: 480px;
+  width: 1000px;
   font-size: 30px;
   margin: 0 auto;
   font-weight: bold;
   line-height: 1,33;
   text-align: center;
 }
+.contInfo2 {
+  display: flex;
+  justify-content: space-evenly;
+}
 .contInfo2__Text {
-  width: 480px;
-  margin: 12px auto 30px;
+  width: 500px;
+  margin: 12px 250px;
   text-align: center;
   font-size: 18px;
 }
-.contInfo3 {
+.liveCont {
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
   flexdirection: column;
   align-items: flex-end;
   margin: 8px 4px;
+  padding: 20px;
   font-size: 18px;
   font-weight: bold;
   color: white;
@@ -29,42 +48,63 @@
   text-overflow: ellipsis;
   text-align: right;
 }
-.contInfo3__Image {
+.liveCont__soccer {
   width: 452px;
   height: 276px;
-}
-.contInfo3__Image--1 {
   background-image: url("../images/fotbal1.png");
 }
-.contInfo3__Image--2 {
+.liveCont__hockey {
+  width: 452px;
+  height: 276px;
   background-image: url("../images/hockey1.png");
 }
-.contInfo4 {
+.liveCont2 {
   display: flex;
-  justify-content: center;
-  margin: 8px 4px 8px 4px;
-  padding: 8px;
+  justify-content: space-evenly;
+  flexdirection: column;
+  align-items: flex-end;
+  margin: 8px 4px;
+  padding: 20px;
   font-size: 18px;
   font-weight: bold;
-  color: black;
+  color: white;
   overflow: hidden;
   text-overflow: ellipsis;
   text-align: right;
 }
-.contInfo4__Image2 {
-  width: 226px;
+.liveCont2__tennis {
+  width: 202px;
   height: 164px;
-}
-.contInfo4__Image2--1 {
   background-image: url("../images/tennis.png");
 }
-.contInfo4__Image2--2 {
+.liveCont2__basketbal {
+  width: 202px;
+  height: 164px;
   background-image: url("../images/basketbal.png");
 }
-.contInfo4__Image2--3 {
+.liveCont2__eSports {
+  width: 202px;
+  height: 164px;
   border: #fceeee;
-  background-color: #fceeee;
+  background-color: #d4d1d1;
 }
-.contInfo4__Image2--4 {
+.liveCont2__sipky {
+  width: 202px;
+  height: 164px;
   background-image: url("../images/sipky.png");
+}
+.liveBlock {
+  display: flex;
+  flexdirection: row;
+  borderwidth: 100px;
+  borderheight: 80px;
+  border: 2px solid black;
+}
+.liveHead {
+  margin: 120px 5px;
+  font-size: 18px;
+  font-weight: bold;
+}
+.liveArea {
+  margintop: 400px;
 }
