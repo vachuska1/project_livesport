@@ -36,75 +36,56 @@ body {
 }
 .liveCont {
   display: flex;
-  justify-content: space-evenly;
-  flexdirection: column;
-  align-items: flex-end;
-  margin: 8px 4px;
+  flex-direction: column;
+  justify-content: space-between;
   padding: 20px;
-  font-size: 18px;
-  font-weight: bold;
-  color: white;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  text-align: right;
+  box-sizing: border-box;
 }
 .liveCont__soccer {
   width: 452px;
   height: 276px;
-  background-image: url("../images/fotbal1.png");
+  background: url("../images/fotbal1.png") no-repeat center / 452px 276px;
 }
 .liveCont__hockey {
   width: 452px;
   height: 276px;
   background-image: url("../images/hockey1.png");
 }
-.liveCont2 {
-  display: flex;
-  justify-content: space-evenly;
-  flexdirection: column;
-  align-items: flex-end;
-  margin: 8px 4px;
-  padding: 20px;
-  font-size: 18px;
-  font-weight: bold;
-  color: white;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  text-align: right;
-}
-.liveCont2__tennis {
-  width: 202px;
-  height: 164px;
-  background-image: url("../images/tennis.png");
-}
-.liveCont2__basketbal {
-  width: 202px;
-  height: 164px;
-  background-image: url("../images/basketbal.png");
-}
-.liveCont2__eSports {
-  width: 202px;
-  height: 164px;
-  border: #fceeee;
-  background-color: #d4d1d1;
-}
-.liveCont2__sipky {
-  width: 202px;
-  height: 164px;
-  background-image: url("../images/sipky.png");
-}
 .liveBlock {
   display: flex;
-  flexdirection: row;
-  borderwidth: 100px;
-  borderheight: 80px;
-  border: 2px solid black;
+  justify-content: space-between;
+  align-items: center;
 }
 .liveHead {
-  margin: 120px 5px;
-  font-size: 18px;
+  font-size: 20px;
   font-weight: bold;
+  color: #FFFFFF;
+}
+.liveIcon {
+  width: 50px;
+  height: 50px;
+  background-color: #FFFFFF;
+  border-radius: 50%;
+}
+.liveBlockCont {
+  display: flex;
+  flex-direction: column;
+}
+.liveDel {
+  width: 70px;
+  height: 2px;
+  margin-bottom: 10px;
+  background-color: #FFFFFF;
 }
 .liveArea {
-  margintop: 400px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 8px;
+}
+.liveText {
+  font-size: 16px;
+  color: #FFFFFF;
+}
+.liveText--bold {
+  font-weight: bold;
 }

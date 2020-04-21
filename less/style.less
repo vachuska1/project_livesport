@@ -108,24 +108,33 @@ body {
         text-align: center;
         font-size: 18px;
     }
-}      
+}
+
+
+
+// tohle je moje prace, ostatni jsem zakomentoval
 .liveCont {
-    display: flex;
-    justify-content: space-evenly;
-    flex direction: column;
-    align-items: flex-end;
-    margin: 8px 4px;
-    padding: 20px;
-    font-size: 18px;
-    font-weight: bold;
-    color: white;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    text-align: right;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	padding: 20px;
+	box-sizing: border-box;
+    //display: flex;
+    //justify-content: space-evenly;
+    //flex direction: column;
+    //align-items: flex-end;
+    //margin: 8px 4px;
+    //padding: 20px;
+    //font-size: 18px;
+    //font-weight: bold;
+    //color: white;
+    //overflow: hidden;
+    //text-overflow: ellipsis;
+    //text-align: right;
     &__soccer {
         width: 452px;
         height: 276px;
-        background-image: url("../images/fotbal1.png");
+        background: url("../images/fotbal1.png") no-repeat center/452px 276px;
     }
     &__hockey {
         width: 452px;
@@ -133,53 +142,100 @@ body {
         background-image: url("../images/hockey1.png");
     }    
 }
-.liveCont2 {
-    display: flex;
-    justify-content: space-evenly;
-    flex direction: column;
-    align-items: flex-end;
-    margin: 8px 4px;
-    padding: 20px;
-    font-size: 18px;
-    font-weight: bold;
-    color: white;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    text-align: right;
-    &__tennis {
-        width: 202px;
-        height: 164px;
-        background-image: url("../images/tennis.png");
-    }
-    &__basketbal {
-        width: 202px;
-        height: 164px;
-        background-image: url("../images/basketbal.png");
-    }
-    &__eSports {
-        width: 202px;
-        height: 164px;
-        border: rgb(252, 238, 238);;
-        background-color: rgb(212, 209, 209);
-    }
-    &__sipky {
-        width: 202px;
-        height: 164px;
-        background-image: url("../images/sipky.png");
-    }
-}
+
 .liveBlock {
-    display: flex;
-    flex direction: row;
-    border width: 100px;
-    border height: 80px;
-    border: 2px solid black;  
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
 }
+
 .liveHead {
-    margin: 120px 5px;
-    font-size: 18px;
-    font-weight: bold;
+	font-size: 20px;
+	font-weight: bold;
+	color: #FFFFFF;
 }
+
+.liveIcon {
+	width: 50px;
+	height: 50px;
+	background-color: #FFFFFF;
+	border-radius: 50%;
+}
+
+.liveBlockCont {
+	display: flex;
+	flex-direction: column;
+}
+
+.liveDel {
+	width: 70px;
+	height: 2px;
+	margin-bottom: 10px;
+	background-color: #FFFFFF;
+}
+
 .liveArea {
-    margin top: 400px;
+	display: flex;
+	justify-content: space-between;
+	margin-top: 8px;
 }
+
+.liveText {
+	font-size: 16px;
+	color: #FFFFFF;
+	&--bold {
+		font-weight: bold;
+	}
+}
+
+
+//.liveCont2 {
+//    display: flex;
+//    justify-content: space-evenly;
+//    flex direction: column;
+//    align-items: flex-end;
+//    margin: 8px 4px;
+//    padding: 20px;
+//    font-size: 18px;
+//    font-weight: bold;
+//    color: white;
+//    overflow: hidden;
+//    text-overflow: ellipsis;
+//    text-align: right;
+//    &__tennis {
+//        width: 202px;
+//        height: 164px;
+//        background-image: url("../images/tennis.png");
+//    }
+//    &__basketbal {
+//        width: 202px;
+//        height: 164px;
+//        background-image: url("../images/basketbal.png");
+//    }
+//    &__eSports {
+//        width: 202px;
+//        height: 164px;
+//        border: rgb(252, 238, 238);;
+//        background-color: rgb(212, 209, 209);
+//    }
+//    &__sipky {
+//        width: 202px;
+//        height: 164px;
+//        background-image: url("../images/sipky.png");
+//    }
+//}
+//.liveBlock {
+//    display: flex;
+//    flex direction: row;
+//    border width: 100px;
+//    border height: 80px;
+//    border: 2px solid black;
+//}
+//.liveHead {
+//    margin: 120px 5px;
+//    font-size: 18px;
+//    font-weight: bold;
+//}
+//.liveArea {
+//    margin top: 400px;
+//}
